@@ -21,3 +21,53 @@ ul {
 a {
   text-decoration: none;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dark-blue-bg {
+  background-color: #1f2937;
+}
+
+.light-gray-bg {
+  background-color: #e5e7eb;
+}
+
+/* ===== HEADER ===== */
+.header {
+  flex: auto;
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-links {
+  display: flex;
+  gap: 25px;
+}
+
+.link {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.header {
+  width: 100%; /* Assuming full width */
+  max-width: 1000px; /* Adjust as needed */
+  margin: 0 auto; /* Centers horizontally */
+  color: white; /* Assuming text color */
+}
