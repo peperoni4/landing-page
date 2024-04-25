@@ -223,3 +223,15 @@ body {
 .sign-up .btn-sign-up {
   align-self: center;
 }
+
+/* ===== FOOTER ===== */
+
+.footer {
+  padding: 40px;
+  color: white;
+  font-size: 18px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
