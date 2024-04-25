@@ -127,3 +127,48 @@ body {
 .btn-white-border {
   border: 2px solid white;
 }
+
+/* ===== INFORMATION ===== */
+
+.information {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.information-header {
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 40px;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.card-img {
+  width: 160px;
+  height: 160px;
+  border: 5px solid #3882f6;
+  border-radius: 15px;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  width: 90%;
+  max-width: 150px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.card {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
